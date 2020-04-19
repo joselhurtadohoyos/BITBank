@@ -1,0 +1,73 @@
+:root {
+    --uno: blue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 113, 206);
+    color: white;
+    padding: 20px 30px;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+
+.form-main form{
+    display: flex;
+    flex-direction: column;
+}
+
+ .header .header-user{
+    display: none;
+}   
+
+.form-main{
+    max-width: 600px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: cornflowerblue;    
+}
+
+.btn {
+    padding: 10px 30px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.btn.btn-success:hover{
+    background-color: tomato;
+}
+
+.atm {
+    display: none;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.atm .atm-balance {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.atm .atm-balance .atm-balance_title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.atm .atm-balance .atm-balace_balance{
+    font-size: 3rem;
+    color: dodgerblue;
+}
+
+.atm .atm-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
